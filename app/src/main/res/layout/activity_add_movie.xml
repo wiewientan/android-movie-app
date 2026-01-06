@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD MOVIE"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-black"/>
+
+    <EditText
+        android:id="@+id/etMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Movie Name"
+        android:background="@drawable/edittext_border"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#A9A9A9"/>
+
+    <EditText
+        android:id="@+id/etGenre"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Genre"
+        android:background="@drawable/edittext_border"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#A9A9A9"/>
+
+    <EditText
+        android:id="@+id/etDateRelease"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Date Release"
+        android:background="@drawable/edittext_border"
+        android:paddingLeft="20dp"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#A9A9A9"/>
+
+    <EditText
+        android:id="@+id/etProducer"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Producer"
+        android:background="@drawable/edittext_border"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="40dp"
+        android:textColorHint="#A9A9A9"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Done"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:fontFamily="serif" />
+
+</LinearLayout>
